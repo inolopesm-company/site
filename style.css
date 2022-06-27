@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Co Headline";
+  src: url("./CoHeadline_Rg.ttf");
+}
+
+:root {
+  --black: #090105;
+  --green: #00C041;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Co Headline", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.navbar {
+  background-color: var(--black);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar__nav-link {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.navbar__nav-link--disabled {
+  pointer-events: none;
+  color: gray;
+}
