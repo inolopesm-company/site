@@ -20,6 +20,7 @@ body {
   line-height: 1;
 }
 
+
 .container {
   width: 100%;
   padding-right: 0.75rem;
@@ -67,7 +68,7 @@ body {
 
 .navbar__nav {
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
 }
 
 .navbar__nav-link {
@@ -78,4 +79,50 @@ body {
 .navbar__nav-link--disabled {
   pointer-events: none;
   color: gray;
+}
+
+.container2 {
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 200px;
+  font-family: 'poppins';
+  background-color: #090105;
+}
+
+.container2 h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.down {
+  position: fixed;
+  bottom: 23rem;
+  right: 63rem;
+  background: var(--black);
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--green);
+  border: 0.2rem solid var(--green);
+}
+
+.ver_mais{
+  position: absolute;
+  color: var(--green);
+  width: 97px;
+  height: 24px;
+  left: 1040px;
+  top: 685px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: lowercase;
 }
