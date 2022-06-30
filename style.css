@@ -141,3 +141,24 @@ body {
 .hero__link:hover {
   text-decoration: underline;
 }
+
+.projetos {
+  width: 100%;
+  background: var(--white);
+  padding: 9rem;
+  align-items: center;
+}
+
+.projetos__item {
+  width: 900px;
+  display: flex;
+  padding: 6px 80px 30px;
+  float: right;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.projetos__item span {
+  
+}
