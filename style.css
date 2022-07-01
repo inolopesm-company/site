@@ -202,3 +202,9 @@ body {
   line-height: 1em;
   font-weight: 300;
 }
+
+.sobre {
+  background-color: var(--white);
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
