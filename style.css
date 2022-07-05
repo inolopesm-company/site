@@ -205,6 +205,43 @@ body {
 
 .sobre {
   background-color: var(--white);
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: 15rem;
+}
+
+.sobre__item {
+  display: flex;
+}
+
+.sobre__title {
+  color: var(--green);
+}
+
+.sobre__text {
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  line-height: 32px;
+  align-items: left;
+  padding-left: 550px;
+}
+
+
+.time__item {
+  padding-top: 15rem;
+
+}
+
+.time__equipe {
+  display: inline-flex;
+  padding-left: 38rem;
+}
+
+.sobre__img {
+  display: flex;
+  flex-direction: row;
+}
+
+.sobre__tag {
+  list-style: none;
+  display: flex;
 }
