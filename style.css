@@ -228,20 +228,24 @@ body {
 
 .time__item {
   padding-top: 15rem;
-
+  display: flex;
 }
 
 .time__equipe {
-  display: inline-flex;
-  padding-left: 38rem;
+   
 }
 
 .sobre__img {
   display: flex;
-  flex-direction: row;
+  padding-left: 50px;
 }
 
 .sobre__tag {
   list-style: none;
+  display: flex;
+}
+
+.time__container {
+  flex-direction: row;
   display: flex;
 }
