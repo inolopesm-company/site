@@ -220,8 +220,8 @@ body {
 .sobre__text {
   font-family: var(--font-secondary);
   font-size: 13px;
-  line-height: 32px;
-  align-items: left;
+  line-height: 42px;
+  align-items: right;
   padding-left: 550px;
 }
 
@@ -231,8 +231,22 @@ body {
   display: flex;
 }
 
+.time__title {
+  font-size: 1.25em;
+  line-height: 2em;
+  font-weight: 400;
+  padding-left: 3rem;
+}
+
+
+.time__container {
+  flex-direction: row;
+  display: flex;
+  margin-left: 30rem;
+}
+
 .time__equipe {
-   
+  
 }
 
 .sobre__img {
@@ -240,12 +254,23 @@ body {
   padding-left: 50px;
 }
 
+.sobre__tags {
+  display: flex;
+  gap: 0.3rem;
+  padding-left: 3rem;
+}
+
 .sobre__tag {
   list-style: none;
   display: flex;
+  gap: 0.3rem;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-secondary), sans-serif;
+  font-size: 0.875em;
+  font-weight: 300;
 }
 
-.time__container {
-  flex-direction: row;
-  display: flex;
-}
+
