@@ -274,3 +274,17 @@ body {
 }
 
 
+.feedback {
+  display: flex;
+  padding-top: 15rem;
+  padding-left: 18.5rem;
+}
+
+.feedback__text {
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  line-height: 2rem;
+  align-items: right;
+  padding-left: 39rem;
+}
+
