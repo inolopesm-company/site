@@ -202,3 +202,72 @@ body {
   line-height: 1em;
   font-weight: 300;
 }
+
+.info {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.info__section {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.info__left, .info__right {
+  width: 50%;
+}
+
+.info__title {
+  font-size: 2.5em;
+  color: var(--green);
+}
+
+.info__paragraph {
+  font-family: var(--font-secondary), sans-serif;
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
+.info_paragraph--mb-1 {
+  margin-bottom: 1rem;
+}
+
+.info__people {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.info__person {
+  width: calc(100% / 3);
+}
+
+.info__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.info__role {
+  font-family: var(--font-primary), sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.info_skills {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.info_skill {
+  font-family: var(--font-secondary), sans-serif;
+  font-size: 0.875em;
+  line-height: 1.125;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+}
