@@ -283,6 +283,10 @@ body {
   flex-direction: column;
 }
 
+.contact__brand {
+  margin-bottom: 5rem;
+}
+
 .contact__title {
   color: var(--white);
   font-size: 4em;
@@ -304,7 +308,7 @@ body {
   text-align: center;
 }
 
-.contact__list {
+.contact__links {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -326,9 +330,3 @@ body {
 .contact__link:hover {
   text-decoration: underline;
 }
-
-.contact__brand {
-  margin-bottom: 5rem;
-}
-
-
