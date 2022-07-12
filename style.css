@@ -108,7 +108,7 @@ body {
 .hero__foot {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   gap: 1rem;
 }
 
@@ -151,8 +151,8 @@ body {
 
 .projects {
   background-color: var(--black);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .projects .container {
@@ -204,13 +204,18 @@ body {
 }
 
 .info {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.info .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .info__section {
   display: flex;
-  margin-bottom: 5rem;
 }
 
 .info__left, .info__right {
