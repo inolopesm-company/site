@@ -336,3 +336,34 @@ body {
 .contact__link:hover {
   text-decoration: underline;
 }
+
+.footer {
+  background-color: var(--black);
+  padding-bottom: 3rem;
+  padding-top: 6rem;
+}
+
+.footer__head {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__brand {
+  width: 250px;
+}
+
+.footer__link {
+  display: flex;
+  gap: 9rem;
+  justify-content: center;
+}
+
+.navbar__footer-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar__footer-link:hover {
+  text-decoration: underline;
+}
+
