@@ -348,13 +348,13 @@ body {
   justify-content: center;
 }
 
-.footer__logo {
+.footer__brand {
   width: 250px;
 }
 
-.navbar__footer {
+.footer__link {
   display: flex;
-  gap: 11rem;
+  gap: 9rem;
   justify-content: center;
 }
 
