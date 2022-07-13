@@ -343,26 +343,24 @@ body {
   padding-top: 6rem;
 }
 
-.navbar__item .container {
+.footer__head {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.footer__logo {
+  width: 250px;
 }
 
 .navbar__footer {
   display: flex;
   gap: 11rem;
-  align-items: center;
-}
-
-.footer__logo {
-  display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .navbar__footer-link {
   color: var(--white);
   text-decoration: none;
-  font-family: var(--font-primary);
 }
 
 .navbar__footer-link:hover {
