@@ -339,23 +339,13 @@ body {
 
 .footer {
   background-color: var(--black);
-  padding-bottom: 3rem;
-  padding-top: 6rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
-.footer__head {
+.footer .container {
   display: flex;
-  justify-content: center;
-}
-
-.footer__brand {
-  width: 250px;
-}
-
-.footer__link {
-  display: flex;
-  gap: 9rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer__link {
@@ -366,4 +356,3 @@ body {
 .footer__link:hover {
   text-decoration: underline;
 }
-
