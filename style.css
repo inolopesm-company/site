@@ -358,12 +358,12 @@ body {
   justify-content: center;
 }
 
-.navbar__footer-link {
+.footer__link {
   color: var(--white);
   text-decoration: none;
 }
 
-.navbar__footer-link:hover {
+.footer__link:hover {
   text-decoration: underline;
 }
 
