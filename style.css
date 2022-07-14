@@ -98,6 +98,18 @@ body {
   flex-direction: column;
 }
 
+.image__left {
+  margin-top: 4rem;
+  position: absolute;
+  left: -15rem;
+}
+
+.image__right {
+  margin-top: 4rem;
+  position: absolute;
+  right: -14rem;
+}
+
 .hero__body {
   flex-grow: 1;
   display: flex;
