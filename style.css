@@ -96,18 +96,9 @@ body {
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-}
-
-.image__left {
-  margin-top: 4rem;
-  position: absolute;
-  left: -15rem;
-}
-
-.image__right {
-  margin-top: 4rem;
-  position: absolute;
-  right: -14rem;
+  background-image: url("./images/script-background.svg"), url("./images/script-background.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -50% center, 150% center;
 }
 
 .hero__body {
@@ -293,6 +284,9 @@ body {
   background-color: var(--black);
   padding-top: 10rem;
   padding-bottom: 10rem;
+  background-image: url("./images/script-background.svg"), url("./images/script-background.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -50% center, 150% center;
 }
 
 .contact .container {
@@ -367,4 +361,10 @@ body {
 
 .footer__link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .hero, .contact {
+    background-image: none;
+  }
 }
