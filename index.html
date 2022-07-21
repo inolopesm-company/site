@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>inlopesm | software house</title>
+  <meta name="title" content="inolopesm — software house" />
+  <meta name="description" content="Empresa de TI especializada em desenvolvimento web" />
+  <link rel="icon" href="./images/favicon.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -21,7 +23,18 @@
             <img src="images/logotipo.svg" alt="logotipo" width="154" height="24" />
           </div>
           <button class="navbar__toggler">
-            menu
+            <svg
+              width="32"
+              height="32"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
           </button>
           <div class="navbar__nav">
             <a class="navbar__nav-link" href="#projetos">projetos</a>
@@ -35,15 +48,24 @@
     </div>
     <div class="hero__body">
       <h1 class="hero__title">
-        Criamos grandes sites<br>para grandes empresas_
+        Impulsione o seu negócio através da internet_
       </h1>
     </div>
     <div class="hero__foot">
       <div>
         <a class="hero__icon" href="#projetos">
-          <span class="material-icons">
-            arrow_downward
-          </span>
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+            />
+          </svg>
         </a>
       </div>
       <div>
@@ -130,13 +152,18 @@
           <h2 class="info__title">&lt;sobre&gt;</h2>
         </div>
         <div class="info__right">
+          <p class="info__paragraph info_paragraph--mb-1">
+            Somos uma empresa de TI especializada em desenvolvimento web.
+            Oferecemos soluções e consultorias que geram otimização e
+            performance para o seu negócio.
+          </p>
+          <p class="info__paragraph info_paragraph--mb-1">
+            Nossa proposta de gestão é muito simples e objetiva. Sua equipe
+            cuida do negócio e nós cuidaremos da tecnologia para que tudo
+            funcione e gere bons resultados!
+          </p>
           <p class="info__paragraph">
-            Velit, tincidunt facilisis sit tincidunt aenean pretium in. Nibh id pulvinar neque
-            adipiscing maecenas aliquet id dignissim id. Facilisi id purus diam sit pellentesque phasellus
-            molestie ultrices etiam. Nisl luctus adipiscing at scelerisque phasellus magnis suspendisse lectus
-            lectus. Sapien, volutpat faucibus sed ullamcorper nisi integer turpis velit et. Velit dignissim
-            pharetra praesent fermentum. Egestas nunc fermentum nibh netus. Sapien placerat felis, justo, cursus a,
-            gravida est.
+            Transparência e comprometimento começa aqui mesmo.
           </p>
         </div>
       </section>
@@ -150,29 +177,29 @@
               <img class="info__image" src="images/dev-1.png" alt="foto do dev. front-end" />
               <h3 class="info__role">Dev. Front-End</h3>
               <ul class="info_skills">
-                <li class="info_skill">html</li>
-                <li class="info_skill">css</li>
-                <li class="info_skill">javascript</li>
-                <li class="info_skill">react.js</li>
+                <li class="info_skill">HTML</li>
+                <li class="info_skill">CSS</li>
+                <li class="info_skill">Javascript</li>
+                <li class="info_skill">React.js</li>
               </ul>
             </div>
             <div class="info__person">
               <img class="info__image" src="images/dev-2.png" alt="foto do dev. fullstack" />
-              <h3 class="info__role">Dev. Full Stack</h3>
+              <h3 class="info__role">Dev. Back-End</h3>
               <ul class="info_skills">
-                <li class="info_skill">react.js</li>
-                <li class="info_skill">node.js</li>
-                <li class="info_skill">mysql</li>
+                <li class="info_skill">Node.js</li>
+                <li class="info_skill">Express.js</li>
+                <li class="info_skill">Nest.js</li>
               </ul>
             </div>
             <div class="info__person">
               <img class="info__image" src="images/dev-3.png" alt="foto do dev. backend" />
-              <h3 class="info__role">Dev. Back-End</h3>
+              <h3 class="info__role">DevOps</h3>
               <ul class="info_skills">
-                <li class="info_skill">node.js</li>
-                <li class="info_skill">express.js</li>
-                <li class="info_skill">nest.js</li>
-                <li class="info_skill">mysql</li>
+                <li class="info_skill">NGINX</li>
+                <li class="info_skill">Docker</li>
+                <li class="info_skill">AWS</li>
+                <li class="info_skill">CI/CD</li>
               </ul>
             </div>
           </div>
@@ -189,7 +216,12 @@
             Sodales urna, neque et, scelerisque. At et risus, ultrices lectus
             faucibus.”
           </p>
-          <img src="images/feedback-company.png" alt="logotipo da empresa que deu o feedback" />
+          <img
+            src="images/botreels.png"
+            alt="logo da botreels"
+            width="40"
+            height="40"
+          />
         </div>
     </div>
   </section>
@@ -203,16 +235,34 @@
         <p class="contact__subtitle">Mande uma mensagem.</p>
         <div class="contact__links">
           <a class="contact__link" href="mailto:inolopesm@gmail.com">
-            <img class="contact__icon" src="images/mail-icon.png" width="32" height="24">
+            <svg
+              width="32"
+              height="32"
+              class="contact__icon"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+              />
+            </svg>
             inolopesm@gmail.com
           </a>
-          <a class="contact__link" href="https://instagram.com/inolopesm" target="_blank" rel="noreferrer noopener">
-            <img class="contact__icon" src="images/instagram-icon.png" width="28" height="28">
+          <a class="contact__link" href="https://t.me/inolopesm" target="_blank" rel="noreferrer noopener">
+            <svg
+              width="32"
+              height="32"
+              class="contact__icon"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+              />
+            </svg>
             @inolopesm
-          </a>
-          <a class="contact__link" href="https://wa.me/5583998212648" target="_blank" rel="noreferrer noopener">
-            <img class="contact__icon" src="images/whatsapp-icon.png" width="28" height="28">
-            83 998212648
           </a>
         </div>
       </div>
