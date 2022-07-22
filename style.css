@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Co Headline";
-  src: url("./CoHeadline_Rg.ttf");
+  src: url("./assets/fonts/CoHeadline_Rg.ttf");
 }
 
 :root {
@@ -102,7 +102,7 @@ body {
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-  background-image: url("./images/script-background.svg"), url("./images/script-background.svg");
+  background-image: url("./assets/images/script-background.svg"), url("./assets/images/script-background.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: -50% center, 150% center;
 }
@@ -258,6 +258,7 @@ body {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .info__role {
@@ -289,7 +290,7 @@ body {
   background-color: var(--black);
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: url("./images/script-background.svg"), url("./images/script-background.svg");
+  background-image: url("./assets/images/script-background.svg"), url("./assets/images/script-background.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: -50% center, 150% center;
 }
@@ -415,31 +416,46 @@ body {
   .hero__title {
     font-size: 3em;
   }
+
   .projects__item {
     width: 100%;
   }
+
   .info__section {
-    display: inline;
-    width: 200%;
+    flex-wrap: wrap;
   }
-  .info__left {
-    padding-bottom: 3rem;
+
+  .info__left, .info__right {
+    width: 100%;
   }
+
+  .info__title {
+    margin-bottom: 2.5rem;
+  }
+
+  .info__people {
+    flex-wrap: wrap;
+  }
+
+  .info__person {
+    width: 100%;
+  }
+
   .contact__links {
     flex-direction: column;
   }
+
   .contact__link {
     padding: 1rem 0.5rem;
     min-height: 3.75em;
   }
+
   .footer .container {
     flex-direction: column;
     gap: 1rem;
   }
+
   .footer__link {
     padding: 1rem 0.5rem;
   }
 }
-
-
-

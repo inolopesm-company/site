@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Co Headline";
+  src: url("../assets/fonts/CoHeadline_Rg.ttf");
+}
+
+:root {
+  --black: #090105;
+  --green: #0fbf4d;
+  --white: #ffffff;
+  --font-primary: "Co Headline";
+  --font-secondary: "Poppins";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary), sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: var(--black);
+}
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+.header {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.title {
+  color: var(--white);
+  text-align: center;
+  font-family: var(--font-secondary), sans-serif;
+  line-height: 1;
+  font-size: 3em;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.link {
+  color: var(--green);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
